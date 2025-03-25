@@ -20,6 +20,6 @@ pip install -r requirements.txt
 
 python -m uvicorn app.api:app --reload --port 8000
 
-
+# Docker
 docker build -t biztelai-api .
 docker run -p 8000:8000 biztelai-api
